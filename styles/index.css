@@ -47,9 +47,14 @@ section.apresentação{
 section.apresentação p{
     margin: 0.7rem;
 }
-section.imagem{
+section.foto-container{
+    display:flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.foto-container img{
     width: 50%;
-    aspect-ratio: 1/1;
+    height: 50%;
     border-radius: 50%;
     object-fit: cover;
 }
